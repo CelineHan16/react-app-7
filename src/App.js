@@ -1,6 +1,7 @@
 import First from "./components/First";
 import Lightbulb from "./components/Lightbulb";
 import MyName from "./components/MyName";
+import ThemeColor from "./components/ThemeColor";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <First output={output} />
       <Lightbulb />
       <MyName />
+      <ThemeColor />
     </div>
   );
 }
