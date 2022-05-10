@@ -1,5 +1,6 @@
 import First from "./components/First";
 import Lightbulb from "./components/Lightbulb";
+import MyName from "./components/MyName";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <First output={output} />
       <Lightbulb />
+      <MyName />
     </div>
   );
 }
